@@ -553,6 +553,14 @@ box-shadow: 0 10px 16px 0 #A2A2A2, 0 12px 40px 0 #A2A2A2;
 	color: #7C8C91;
 	font-family: sans-serif;
 }
+@media screen and (max-width: 1200px) {
+	#boxes1{
+		margin-left: 80px;
+	}
+	#boxes2{
+		margin-right: 80px;
+	}
+}
 
 @media screen and (max-width: 878px) {
 	.experience{
