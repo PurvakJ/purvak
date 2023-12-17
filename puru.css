@@ -450,7 +450,7 @@ box-shadow: 0 10px 16px 0 #A2A2A2, 0 12px 40px 0 #A2A2A2;
 
 	.portfolio h3{
     	display: inline-block;
-    	margin: 0 45px;
+    	padding: 0 45px;
 		color: #A9ADAD;
 		margin-top: 10px;
     }
