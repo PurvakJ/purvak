@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (loaderElement) {
             loaderElement.style.display = 'none';
         }
-    }, 2000);
+    }, 0);
 });
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -28,3 +28,14 @@ document.addEventListener('DOMContentLoaded', function () {
   // Listen for scroll events
   window.addEventListener('scroll', checkScroll);
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+        const navLinks = document.querySelectorAll("nav ul li a");
+
+        navLinks.forEach(function (link) {
+            link.addEventListener("click", function () {
+                // Close the navigation menu when a link is clicked
+                document.getElementById("check").checked = false;
+            });
+        });
+    });
