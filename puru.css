@@ -701,7 +701,77 @@ button{
 		margin-bottom: 50px;
 	}
 }
+.mainside {
+    position: fixed;
+    left: 0px;
+    top: 35%;
+}
 
+.side {
+    background: #2E639F;
+    border-radius: 0 15px 0 0;
+    height: 60px;
+    width: 50px;
+    transition: width 0.1s ease; /* Add a transition for smoother width change */
+}
+
+.side:hover {
+    width: 140px;
+}
+
+.side p {
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 20px;
+    color: white;
+    font-family: sans-serif;
+    margin-right: 5px;
+    display: none;
+    font-weight: bold;
+}
+
+.side:hover p {
+    display: block;
+    display: inline-block;
+}
+
+.side img {
+    height: 30px;
+    width: 30px;
+    float: right; 
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+#git{
+	height: 40px;
+	width: 40px;
+	margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+#res{
+	height: 50px;
+	width: 50px;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+#mail{
+	margin-top: 10px;
+	height: 40px;
+}
+
+
+
+@media screen and (max-width: 878px) {
+	.mainside{
+		display: none;
+	}	
+}
 
 @keyframes fade {
     from {
