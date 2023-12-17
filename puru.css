@@ -490,6 +490,18 @@ box-shadow: 0 10px 16px 0 #A2A2A2, 0 12px 40px 0 #A2A2A2;
     	margin-left: 100px;
     }
 
+    @media screen and (max-width: 1200px) {
+	#boxe1{
+    	margin-left: 70px;
+    }
+    #boxe2{
+    	margin-right: 70px;
+    }
+    .portfolio h3{
+    	padding: 0 25px;
+    }
+    }
+
     @media screen and (max-width: 878px) {
     .portfolio {
         padding: 40px;
@@ -512,6 +524,12 @@ box-shadow: 0 10px 16px 0 #A2A2A2, 0 12px 40px 0 #A2A2A2;
     #port{
     	text-align: center;
     	margin-left: 0px;
+    }
+    .portfolio h3{
+    	display: inline-block;
+    	padding: 0 45px;
+		color: #A9ADAD;
+		margin-top: 10px;
     }
 }
 #port1{
@@ -599,7 +617,7 @@ box-shadow: 0 10px 16px 0 #A2A2A2, 0 12px 40px 0 #A2A2A2;
 }
 
 .boxe{
-  transition: transform 0.8s;
+  transition: transform 0.5s;
 }
 .boxe:hover {
   transform: scale(1.05); 
@@ -746,9 +764,9 @@ button{
 
 #git{
 	height: 40px;
-	width: 50px;
-	margin-right: 5px;
-margin-left: 5px;
+	width: 60px;
+	margin-right: 0px;
+margin-left: 8px;
     margin-top: 10px;
 }
 
