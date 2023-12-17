@@ -553,6 +553,14 @@ box-shadow: 0 10px 16px 0 #A2A2A2, 0 12px 40px 0 #A2A2A2;
 	color: #7C8C91;
 	font-family: sans-serif;
 }
+
+.live{
+  transition: transform 0.5s;
+}
+.live:hover {
+  transform: scale(1.2); 
+}
+
 @media screen and (max-width: 1200px) {
 	#boxes1{
 		margin-left: 80px;
@@ -595,14 +603,12 @@ box-shadow: 0 10px 16px 0 #A2A2A2, 0 12px 40px 0 #A2A2A2;
 }
 .boxe:hover {
   transform: scale(1.05); 
-  cursor: pointer;
 }
 
 .boxees{
 	transition: transform 0.8s;
 }
 .boxees:hover{
-	cursor: pointer;
 	transform: scale(0.9);
 }
 
