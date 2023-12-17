@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (loaderElement) {
             loaderElement.style.display = 'none';
         }
-    }, 0);
+    }, 2000);
 });
 
 document.addEventListener('DOMContentLoaded', function () {
