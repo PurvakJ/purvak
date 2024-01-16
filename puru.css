@@ -13,6 +13,10 @@ nav {
     left: 0px;
 }
 
+#resu{
+    display: none;
+}
+
 #circle{
 	position: absolute;
 	border-radius: 50%;
@@ -113,7 +117,9 @@ nav ul li a:hover {
     	position: absolute;
     	top: 10px;
     }
-
+    #resu{
+        display: block;
+    }
     nav ul {
         position: absolute;
         width: 100%;
@@ -808,3 +814,4 @@ margin-left: 5px;
     animation-play-state: paused; /* Optional, if you want the animation to start paused */
     animation-range: entry 50% cover 50%;
 }
+
