@@ -566,6 +566,12 @@ box-shadow: 0 10px 16px 0 #A2A2A2, 0 12px 40px 0 #A2A2A2;
 #boxes2{
 	margin-right: 150px;
 }
+#booxes1{
+    margin-left: 150px;
+}
+#booxes2{
+    margin-right: 150px;
+}
 .boxees img{
 	height: 75px;
 	width: 75px;
@@ -592,6 +598,12 @@ box-shadow: 0 10px 16px 0 #A2A2A2, 0 12px 40px 0 #A2A2A2;
 	#boxes2{
 		margin-right: 80px;
 	}
+    #booxes1{
+        margin-left: 80px;
+    }
+    #booxes2{
+        margin-right: 80px;
+    }
 }
 
 @media screen and (max-width: 878px) {
@@ -609,6 +621,11 @@ box-shadow: 0 10px 16px 0 #A2A2A2, 0 12px 40px 0 #A2A2A2;
   #boxes1, #boxes2{
   	margin-right: 5px;
   	margin-left: 5px;
+  }
+  #booxes1, #booxes2{
+    margin-right: 5px;
+    margin-left: 5px;
+    display: none;
   }
   #port1{
   	text-align: center;
